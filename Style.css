@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	}
+#banner{
+	background-color: #11278C;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+#logo{
+	padding-top:35px;
+	float:left;}
+#nav{
+	padding-left:200px;
+	padding-top:50px;
+	font-size:14px;
+	font-weight:bold;}
+	
+#nav li{
+	color:#CCC;
+	display:inline;
+	margin:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+
+#nav li a:link, #nav li a:visited {
+	text-decoration:none; 
+	color:#CCC;
+	height:24px; 
+	line-height:24px; 
+	display:inline; 
+	float:left; 
+	width:auto; 
+	padding:0px 10px;
+	padding-bottom:7px;}
+	
+#nav li a:hover{
+	color:white;
+	background: transparent url("img/arrow.png") 50% 100% no-repeat;}
+	
+#nav li.active a:link{
+	color:#FFF;
+	background: transparent url("img/arrow.png") 50% 100% no-repeat;}
+	
+#topright{
+	float:right;
+	margin-right:50px;
+	color:white;
+}	
+#topright img, #topright span{
+	padding:8px;
+	padding-bottom:2px;
+	}
+
+form#search{
+	padding-top:10px;}
+
+input{
+	width:150px;}
+
+
+
+
+.block{
+	float:left;
+	border-bottom:thin solid #CCC;
+	border-top:thick solid #CCC;
+	width:113px;
+	margin-right:0;
+	padding-right:0;
+	height: 5em;
+	padding:4px;
+	font-size:10px;
+	border-radius: 6px 6px 6px 6px;
+ 	}
+.block span{
+
+	height:1.5em;
+	font-size:36px;
+	margin-top:85px;
+	line-height:1em;}
+
+.line{
+	border-right:thin solid  #CCC;}
+.left{
+	border-left:thin solid  #CCC;}
+
+.green_square{
+	margin:10px;
+	width:10px;
+	height:10px;
+	background-color:green;
+	float:left;}
+
+.nav-tabs {
+font-size:13px;
+}
+
+#l1{
+	background-color:#999;
+	padding:4px;}
+#l1 img{
+	float:right;
+	margin-right:5px;}
+
+#details{
+	border:thin solid #666;
+	border-radius: 6px 6px 6px 6px;
+	}
+
+.name_detail{
+	font-size:4px;
+	color:#CCC;}
+
+#detail_button{
+	float:right;}
+#study_detail{
+	margin-top:10px;}
+	
+#banner_sessions{
+	height:15px;
+	padding:5px;
+	}
+.detail_alert{
+	float:right;}
+
+
+
+
+	
+#table_banner1{
+	height:20px;
+	background-color:#CCC;
+	padding:4px;
+	border-radius: 6px 6px 0 0;
+	border-top:#333 thin solid;
+	border-right:#333 thin solid;
+	border-left:#333 thin solid;
+	}
+#table_banner2{
+	height:36px;
+	background-color:#666;
+	padding-top:8px;
+	padding-left:6px;
+	}
+
+#session{
+	margin:0;
+	padding:10px;}
+
+.sessions{
+	border-bottom: thin #CCC dashed;
+	margin:0;
+	margin-bottom:15px;
+}
+
+#details{
+	display:none;
+
+	width:22%;
+	position:absolute;
+	top:450px;
+	left:63%;
+
+	}
+#table{
+	width:65%;}
+
+#dropdownmenu{
+	padding-left:50px;
+	padding-top:10px;
+	float:left;}
+h4{
+	float:left;}
+	
+#tabs{
+	width:25em;
+	float:right;}
