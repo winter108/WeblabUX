@@ -8,6 +8,7 @@ body{
 	background-color: #11278C;
 	height: 70px;
 	margin: 0 auto;
+
 	
 }
 #logo{
@@ -69,7 +70,7 @@ input{
 	float:left;
 	border-bottom:thin solid #CCC;
 	border-top:thick solid #CCC;
-	width:113px;
+	width:12%;
 	margin-right:0;
 	padding-right:0;
 	height: 5em;
@@ -161,10 +162,10 @@ font-size:13px;
 #details{
 	display:none;
 
-	width:22%;
+	width:25%;
 	position:absolute;
 	top:450px;
-	left:63%;
+	left:65%;
 
 	}
 #table{
@@ -174,9 +175,19 @@ font-size:13px;
 	padding-left:50px;
 	padding-top:10px;
 	float:left;}
-h4{
-	float:left;}
+
 	
 #tabs{
-	width:25em;
-	float:right;}
+	height: 150px;
+	position:absolute;
+	left:65%;
+	width:25%;
+margin-bottom: 24px;
+font-size: 12px;
+padding-bottom: 10px;}
+
+
+	
+#contain{
+	width:80%;
+	margin:0 auto;}
